@@ -59,14 +59,26 @@ public class Main {
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
+        byte totalPaint = 120;
+        int clas = totalPaint/(2+4);
+        int white = clas*2;
+        int brown = clas*4;
+        System.out.println("В школе, где " +clas+" классов, нужно " +white+ " банок белой краски " +brown+" банок коричневой краски");
     }
     public static void task6 () {
         System.out.println("Задача 6");
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int iceCreamSundae = 2 * 100;
+        int rawEggs = 4*70;
+        int totalGrams = banana+milk+iceCreamSundae+rawEggs;
+        float totalKg =totalGrams/1000F;
+        System.out.println("Вес такого спортзавтрака в граммах " +totalGrams);
+        System.out.println("Вес такого спортзавтрака в килограммах " +totalKg);
+
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
 
     }
     public static void task8 () {
