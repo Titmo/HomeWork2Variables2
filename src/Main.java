@@ -59,17 +59,51 @@ public class Main {
     }
     public static void task5 () {
         System.out.println("Задача 5");
-
+        byte totalPaint = 120;
+        int clas = totalPaint/(2+4);
+        int white = clas*2;
+        int brown = clas*4;
+        System.out.println("В школе, где " +clas+" классов, нужно " +white+ " банок белой краски " +brown+" банок коричневой краски");
     }
     public static void task6 () {
         System.out.println("Задача 6");
+        int banana = 5 * 80;
+        int milk = 2 * 105;
+        int iceCreamSundae = 2 * 100;
+        int rawEggs = 4*70;
+        int totalGrams = banana+milk+iceCreamSundae+rawEggs;
+        float totalKg =totalGrams/1000F;
+        System.out.println("Вес такого спортзавтрака в граммах " +totalGrams);
+        System.out.println("Вес такого спортзавтрака в килограммах " +totalKg);
+
     }
     public static void task7 () {
         System.out.println("Задача 7");
-
-
+        short kilogram = 7000;
+        int minDay = kilogram/250;
+        int maxDay = kilogram/500;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то нужно "+minDay+" дней");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то нужно "+maxDay+" дней");
+        int average = (minDay+maxDay)/2;
+        System.out.println("Если спортсмен будет терять каждый день по среднее количество грамм, то нужно "+average+" дней");
     }
     public static void task8 () {
         System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int masha10 = (int) (masha*0.1);
+        int denis10 = (int) (denis*0.1);
+        int kristina10 = (int) (kristina*0.1);
+        System.out.println("Зарплата в этом месяце Маши составила:"+(masha10+masha)+" рублей");
+        System.out.println("Зарплата в этом месяце Дениса составила:"+(denis10+denis)+" рублей");
+        System.out.println("Зарплата в этом месяце Кристины составила:"+(kristina10+kristina)+" рублей");
+        int yearMasha = (masha*11)+masha10;
+        System.out.println("Маша теперь получает " +yearMasha+ " рублей. Годовой доход вырос на " +masha10+" рублей");
+        int yearDenis = (denis*11)+denis10;
+        System.out.println("Денис теперь получает " +yearDenis+ " рублей. Годовой доход вырос на " +denis10+" рублей");
+        int yearKristina = (kristina*11)+kristina10;
+        System.out.println("Кристина теперь получает " +yearKristina+ " рублей. Годовой доход вырос на " +kristina10+" рублей");
+
     }
 }
